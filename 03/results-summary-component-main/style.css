@@ -1,0 +1,61 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.item {
+  width: 200px;
+  background-color: antiquewhite;
+}
+
+.item  p {
+  font-weight: 800;
+}
+
+.item  span {
+  color: brown;
+}
+
+.item p ~ p {
+  background-color: blue;
+}
+
+button[disabled] {
+  background-color: navy;
+}
+
+[type="text"] {
+  background-color: blueviolet;
+}
+
+p,span,.item {
+  font-size: 35px;
+}
+
+.button {
+  height: 50px;
+  width: 100px;
+}
+
+.button:hover {
+  background-color: aquamarine;
+  height: 100px;
+}
+
+/* .button:focus {
+  width: 50px;
+  background-color: brown;
+} */
+
+.button:active {
+  border-color: blue;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
