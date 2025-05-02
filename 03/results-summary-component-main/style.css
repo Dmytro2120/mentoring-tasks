@@ -10,6 +10,7 @@
 }
 
 body {
+  font-family: "Hanken Grotesk", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,30 +83,33 @@ body {
   align-items: center;
   margin-bottom: 10px;
   border-radius: 15px;
-  background-color: rgba(255, 0, 0, 0.077);
+  background-color: rgba(255, 87, 87, 0.097);
 }
 
+.sum span {
+  color: #0101016c;
+}
 
 .sum li.memory {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
   border-radius: 15px;
-  background-color: rgba(255, 128, 0, 0.084);
+  background-color: rgba(255, 177, 31, 0.1);
 }
 
 .sum li.verbal {
   align-items: center;
   margin-bottom: 10px;
   border-radius: 15px;
-  background-color: rgba(0, 205, 120, 0.068);
+  background-color: rgba(0, 189, 145, 0.13);
 }
 
 .sum li.visual {
   align-items: center;
   margin-bottom: 10px;
   border-radius: 15px;
-  background-color: rgba(136, 0, 255, 0.091);
+  background-color: rgba(17, 36, 212, 0.114);
 }
 
 .sum h1 {
