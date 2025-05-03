@@ -28,12 +28,17 @@ body {
 
 }
 
+.my-result img {
+  width: 30px;
+  height: 30px;
+}
+
 .res {
   text-align: center;
   padding: 50px;
   width: 300px;
   display: flex;
-  background-color: #0330f7;
+  background-color: rgb(2, 47, 247);
   flex-direction: column;
   justify-content: center;
   border-radius: 20px;
@@ -41,8 +46,8 @@ body {
 }
 
 .points {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   border-radius: 50%;
@@ -51,7 +56,7 @@ body {
 }
 
 .your-points {
-  font-size: 48px;
+  font-size: 68px;
   margin: 20px 0 10px;
 }
 
@@ -66,7 +71,7 @@ body {
 
 .sum ul.my-result {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   list-style: none;
   padding: 0px;
 }
@@ -75,7 +80,7 @@ body {
   display: flex;
   height: 40px;
   width: 300px;
-  justify-content: space-evenly;
+  justify-content: space-evenly; 
 }
 
 
@@ -84,10 +89,6 @@ body {
   margin-bottom: 10px;
   border-radius: 15px;
   background-color: rgba(255, 87, 87, 0.097);
-}
-
-.sum span {
-  color: #0101016c;
 }
 
 .sum li.memory {
@@ -112,15 +113,39 @@ body {
   background-color: rgba(17, 36, 212, 0.114);
 }
 
+.reaction p {
+  color: rgb(255, 87, 87);
+}
+
+.memory p {
+  color: rgb(255, 176, 31);
+}
+
+.verbal p {
+  color: rgb(0, 189, 145);
+}
+
+.visual p {
+  color: rgb(17, 37, 212)
+}
+
 .sum h1 {
   text-align: left;
+}
+
+.you-score {
+  font-weight: bold;
+  color: black;
+}
+.max-score {
+  color: #0101016c;
 }
 
 .continue-btn {
   margin-top: 20px;
   padding: 12px;
   border: none;
-  background-color: #0330f7;
+  background-color: rgb(2, 47, 247);
   border-radius: 50px;
   font-size: 16px;
   cursor: pointer;
@@ -128,4 +153,6 @@ body {
 
 .continue-btn:hover {
   background-color: #00198a;
+  animation: grow 1s ease forwards;
+  animation-delay: 0.5s;
 }
