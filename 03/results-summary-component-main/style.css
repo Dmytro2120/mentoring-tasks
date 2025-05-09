@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 0;
+  line-height: 1;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 18px;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+.attribution {
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  background-color: rgb(217, 217, 217);
+}
+
+.item {
+  display:flex;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.532);
+  width: 740px;
+
+}
+
+.my-result img {
+  width: 30px;
+  height: 30px;
+}
+
+.res {
+  text-align: center;
+  padding: 44px 50px;
+  width: 50%;
+  display: flex;
+  background: linear-gradient(180deg,rgba(120, 87, 255, 1) 0%, rgba(46, 43, 233, 1) 50%);
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  color: aliceblue;
+  align-items: center;
+}
+
+.res h1 {
+  opacity: 0.7;
+}
+
+.res h2 {
+  /* margin-top: 36px;
+  margin-bottom: 24px; */
+  margin: 36px 0 24px;
+}
+
+.res-paragraf {
+  max-width: 246px;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.points {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50%;
+  margin: 0 auto;
+  justify-content: center;
+  background: linear-gradient(180deg,hsla(256, 72%, 46%, 1) 0%, hsla(241, 72%, 46%, 0) 100%);
+}
+
+.your-points {
+  font-weight: 800;
+  font-size: 68px;
+  line-height: 1;
+  /* margin: 20px 0 10px; */
+}
+
+.sum {
+  text-align: center;
+  padding: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.532);
+  justify-content: space-between;
+}
+
+.sum h1 {
+  margin-bottom: 24px;
+}
+
+.sum ul.my-result {
+  display: flex;
+  flex-direction: column; 
+  list-style: none;
+  padding: 0px;
+  /* gap: 14px; */
+
+}
+
+.box {
+  height: 52px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  padding: 0px 20px;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.box:last-child {
+  margin-bottom: 0;
+}
+
+.score {
+  margin-left: auto;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.reaction {
+  background-color: rgba(255, 87, 87, 0.097);
+}
+/* .sum ul.my-result > li {
+  display: flex;
+  height: 40px;
+  width: 300px;
+  justify-content: space-evenly; 
+} */
+
+
+/* .sum li.reaction {
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  background-color: rgba(255, 87, 87, 0.097);
+} */
+
+.memory {
+  background-color: rgba(255, 177, 31, 0.1);
+}
+
+.verbal {
+  background-color: rgba(0, 189, 145, 0.13);
+}
+
+.visual {
+  background-color: rgba(17, 36, 212, 0.114);
+}
+
+.reaction p {
+  color: rgb(255, 87, 87);
+}
+
+.memory p {
+  color: rgb(255, 176, 31);
+}
+
+.verbal p {
+  color: rgb(0, 189, 145);
+}
+
+.visual p {
+  color: rgb(17, 37, 212)
+}
+
+.sum h1 {
+  text-align: left;
+  
+}
+
+.you-score {
+  font-weight: bold;
+  color: black;
+}
+.max-score {
+  color: #0101016c;
+}
+
+.continue-btn {
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 18px;
+  border: none;
+  background-color: rgb(2, 47, 247) ;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  justify-self: end;
+  line-height: 1;
+  transition: all 0.5s;
+}
+
+.continue-btn:hover {
+  background: rgba(120, 87, 255, 1);
+}
