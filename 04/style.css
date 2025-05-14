@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2000px;
+  overflow: auto;
+  position: relative;
+}
+
+.item {
+  position: relative;
+  padding: 30px;
+}
+
+.text::before {
+  content: "Test - ";
+  user-select: text;
+}
+
+.text::after {
+  content: " - Test";
+  background-color: aqua;
+}
+
+.text::first-letter {
+  font-size: 28px;
+}
+
+.text::selection {
+  background-color: red;
+}
+
+.text::before::selection {
+  background-color: red;
+}
+
+li::marker {
+  color: green;
+}
+
+input::placeholder {
+  background-color: aqua;
+}
+
+h1 {
+  background-color: blueviolet;
+  padding: 15px 20px;
+  margin-bottom: 50px;
+}
+
+.inline {
+  display: none;
+  background-color: yellow;
+}
+
+.inline-block {
+  display: inline-block;
+  background-color: indianred;
+}
