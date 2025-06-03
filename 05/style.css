@@ -47,10 +47,11 @@
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
 
-.switch-label:active::after {
+/* .switch-label:active::after {
   width: 26px;
-}
+} */
 
 .switch-input:focus + .switch-label {
   outline: 2px solid #000;
 }
+
