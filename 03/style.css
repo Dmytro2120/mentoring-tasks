@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2000px;
+  overflow: auto;
+  /* height: 1000px; */
+  position: relative;
+}
+
+.item {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  /* overflow: auto;
+  height: 1000px; */
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+}
+
+.box-1 {
+  position: relative;
+  top: 30px;
+  left: 57px;
+  background-color: rgb(255, 0, 0);
+}
+
+.box-2 {
+  position: absolute;
+  top: 64px;
+  left: 24px;
+  background-color: rgb(6, 0, 128);
+}
+
+.box-3 {
+  position: fixed;
+  top: 74px;
+  right: 55px;
+  background-color: yellow;
+}
+
+.box-4 {
+  position: sticky;
+  top: 0;
+  right: 0;
+  background-color: black;
+}
+ 
+
+.wrapper {
+  background-color: greenyellow;
+}
