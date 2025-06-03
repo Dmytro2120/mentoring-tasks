@@ -41,12 +41,11 @@ body {
 }
 
 .item {
-  display:flex;
+  display: flex;
   border-radius: 20px;
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0.532);
   width: 740px;
-
 }
 
 .my-result img {
@@ -59,7 +58,11 @@ body {
   padding: 44px 50px;
   width: 50%;
   display: flex;
-  background: linear-gradient(180deg,rgba(120, 87, 255, 1) 0%, rgba(46, 43, 233, 1) 50%);
+  background: linear-gradient(
+    180deg,
+    rgba(120, 87, 255, 1) 0%,
+    rgba(46, 43, 233, 1) 50%
+  );
   flex-direction: column;
   justify-content: center;
   border-radius: 20px;
@@ -91,7 +94,11 @@ body {
   border-radius: 50%;
   margin: 0 auto;
   justify-content: center;
-  background: linear-gradient(180deg,hsla(256, 72%, 46%, 1) 0%, hsla(241, 72%, 46%, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    hsla(256, 72%, 46%, 1) 0%,
+    hsla(241, 72%, 46%, 0) 100%
+  );
 }
 
 .your-points {
@@ -117,11 +124,10 @@ body {
 
 .sum ul.my-result {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   list-style: none;
   padding: 0px;
   /* gap: 14px; */
-
 }
 
 .box {
@@ -156,7 +162,6 @@ body {
   justify-content: space-evenly; 
 } */
 
-
 /* .sum li.reaction {
   align-items: center;
   margin-bottom: 10px;
@@ -189,12 +194,11 @@ body {
 }
 
 .visual p {
-  color: rgb(17, 37, 212)
+  color: rgb(17, 37, 212);
 }
 
 .sum h1 {
   text-align: left;
-  
 }
 
 .you-score {
@@ -211,7 +215,7 @@ body {
   margin-top: 20px;
   padding: 18px;
   border: none;
-  background-color: rgb(2, 47, 247) ;
+  background-color: rgb(2, 47, 247);
   border-radius: 50px;
   font-size: 16px;
   cursor: pointer;
